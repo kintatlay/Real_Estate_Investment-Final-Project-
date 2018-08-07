@@ -1,0 +1,160 @@
+.logoArrange
+ {
+    height: 33px;
+    width: 33px;
+    
+    margin-left: 20px;
+    margin-right: 5px;
+    -webkit-filter: drop-shadow(1px 1px 0 white)
+                    drop-shadow(-1px -1px 0 white);
+            filter:drop-shadow(1px 1px 0 white)
+                    drop-shadow(-1px -1px 0 white);
+}
+
+/***** Main Page Video *****/
+.video-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+  }
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+
+}
+
+.textcover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 70px;
+    opacity: 0.6;
+    background: white;
+}
+
+/***** Data table *****/
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/***** House Price Banner *****/
+.bannerHousePrice {
+    position: relative;
+    height: 500px;
+    margin-bottom: 20px;
+    background: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Houses.jpg);
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-size: cover;
+    text-align: center;
+}
+
+.bannerHousePrice > h1 {
+    position: absolute;
+    opacity: 0.6;
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+    font-size: 7em;
+}
+
+.bannerRent2Price {
+    position: relative;
+    height: 500px;
+    margin-bottom: 20px;
+    background: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/rent.jpg);
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-size: cover;
+    text-align: center;
+}
+
+.bannerRent2Price > h1 {
+    position: absolute;
+    opacity: 0.7;
+    margin-top: 90px;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+    font-size: 6em;
+}
+
+.bannerMachineL {
+    position: relative;
+    height: 500px;
+    margin-bottom: 20px;
+    background: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/ai.jpg);
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-size: cover;
+    text-align: center;
+}
+
+.bannerMachineL > h1 {
+    position: absolute;
+    opacity: 0.5;
+    margin-top: 90px;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+    font-size: 6em;    
+}
+
+/***** Background Sheet *****/
+.topics {
+    color: blue;
+}
+
+/***** Machine Learning Graph *****/
+.machinePrediction {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/***** Construction Process *****/
+.construction {
+    position: relative;
+    height: 400px;
+    margin-bottom: 20px;
+    background: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/big_data.jpg);
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-size: cover;
+    text-align: center;
+}
+
+.construction > h1 {
+    position: absolute;
+    opacity: 0.8;
+    margin-top: 90px;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+    font-size: 6em;    
+}
+
+.match {
+    color: red;
+}
